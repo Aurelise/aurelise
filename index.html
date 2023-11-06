@@ -1,67 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Aurelise</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #1a1404;
-    color: #e8e8e8;
-  }
-  .content {
-    padding: 20px;
-    text-align: center;
-  }
-  .navbar {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color:#443625;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 15px 0;
-    border-top: 6px solid #ddd;
-    border-radius: 20px 20px 0 0;
-    z-index: 999;
-    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.1);
-  }
-  .navbar a {
-    color: #ca9e22;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 14px;
-    transition: color 0.3s;
-    border: 2px solid transparent;
-    padding: 10px 15px;
-    border-radius: 10px;
-    width: 100%;
-  }
-  .navbar a:hover,
-  .navbar a.selected {
-    color: #dd7600;
-    border-color: #ffffb74d;
-  }
-</style>
-</head>
-<body>
-  <div class="content">
-    <h1>Welcome to Aurelise</h1>
-    <p>Your ultimate destination for all things Anime, Manga, and Fanart!</p>
-    <p>Explore our carefully curated collection and immerse yourself in the world of Aurelise.</p>
-    <iframe width="100%" height="25%" src="https://doods.pro/e/58obiau0jk2lw03ycdt2p4avpl1mu8ts" scrolling="no" frameborder="0" allowfullscreen="true"></iframe>
-  </div>
-  <div class="navbar">
-    <a href="#home" class="selected">Home</a>
-    <a href="#anime">Anime</a>
-    <a href="#manga">Manga</a>
-    <a href="#fanart">Fanart</a>
-    <a href="#about">About</a>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurelise</title>
+    <link rel="stylesheet" href="./assets/main.css"/>
+  </head>
+  
+  <body>
+    <div class="content">
+      <h1>Welcome to Aurelise</h1>
+      <p>Your ultimate destination for all things Anime, Manga, and Fanart!</p>
+      <p>Explore our carefully curated collection and immerse yourself in the world of Aurelise.</p>
+    </div>
+    
+    <nav-bar></nav-bar>
+    <script src="./components/navbar.js"></script>
+  </body>
 </html>
